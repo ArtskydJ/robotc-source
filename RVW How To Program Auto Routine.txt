@@ -1,0 +1,47 @@
+How to program autonomous routines:
+
+
+----- How to drive -----
+L = -Left/Type- column
+R = -Rht/Spd- column
+
+To drive a certain speed, input:
+	T | SPD
+	L | speed
+	R | speed
+
+To drive a certain distance, input:
+	T | ENC
+	L | encoder distance
+	R | encoder distance
+
+To keep straight with gyro, input:
+	T | STR
+	L | target gyro
+	R | target distance
+
+To follow a line, input:
+	T | LINEC
+	L | speed
+	R |   -
+	
+To turn with the gyro, input:
+	T | GYRO2
+	L | target rotation
+	R | target speed
+	
+To turn left wheels with the gyro, input:
+	T | GYROL
+	L | target rotation
+	R | target speed
+	
+To turn right wheels with the gyro, input:
+	T | GYROR
+	L | target rotation
+	R | target speed
+
+
+----- How to do other things -----
+LIFT |			Input speed or height into the -Lift- column
+INTAKE |		Input speed into the -Intake- column
+SKIP TO STEP |	Input wanted step into the -Action- column of RESET_AUTO

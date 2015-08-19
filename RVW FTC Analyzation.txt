@@ -1,0 +1,55 @@
+There are three ways to score with this challenge. 
+
+1. Hanging Rings on the Center Post Hanger. Three points are awarded for a Ring on the 
+top level, two points are awarded for a Ring on the middle level, and one point is 
+awarded for a Ring on the bottom level. The total score of the Center Post Hanger is 
+tripled if three Rings are scored on three different levels on the same side of Center Post
+Hanger. (3 + 2 + 1) * 3 = 18 points.
+
+2. Hanging the rings on the Corner Post Hangers. Three points are awarded for the first 
+Ring hung on a Corner Post Hanger. If you score one Ring on each corner post Hanger 
+plus one ring on the middle level of the Center Post Hanger, those points are tripled.
+(3 + 3 + 2) * 3 = 24 points. 
+
+3. Placing the Rings on the Red Floor Tiles. There are four Red Floor Tiles located near 
+each of the Free Zones. One point is scored for each Red Floor Tile with one Ring 
+placed within it. If all four Red Floor Tiles in a group have scored Rings, those points are 
+doubled. (1 + 1 + 1 + 1) * 2 = 8 points. 
+
+
+Where the 16 rings go:
+	22					36											8			8			
+				\___n___|___n___/						|			_____					
+					U	|	U							|			| O	|					
+						|								|		____|___|____				
+						|								|		| O	|	| O	|				
+				\___n___|___n___/						|		|___|___|___|				
+					U	|	U							|			| O	|		_____		
+						|								|			|___|		| O	|		
+						|								|		         	____|___|____	
+____n__/		\___n___|___n___/		\___n____		|		         	| O	|	| O	|	
+|	U				U	|	U				U	|		|		         	|___|___|___|	
+|						|						|		|		         		| O	|		
+|						|						|		|		         		|___|		
+
+74 pts, good enough
+
+wrist:
+straight down = 0
+straight out = 90
+good angle = 150
+straight up = 180
+
+
+lift:
+low...
+1860 wd
+867 wu
+med...
+2086 wu
+2756 wd
+hi...
+2945 wu
+corner...
+2050 wd
+1055 wu
