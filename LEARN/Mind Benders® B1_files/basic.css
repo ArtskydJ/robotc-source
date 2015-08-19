@@ -1,0 +1,117 @@
+/*
+ * SimpleModal Basic Modal Dialog
+ * http://www.ericmmartin.com/projects/simplemodal/
+ * http://code.google.com/p/simplemodal/
+ *
+ * Copyright (c) 2010 Eric Martin - http://ericmmartin.com
+ *
+ * Licensed under the MIT license:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *
+ * Revision: $Id: basic.css 257 2010-07-27 23:06:56Z emartin24 $
+ */
+
+#basic-modal-content {display:none;}
+
+/* Overlay */
+#simplemodal-overlay {background-color:#EEEEEE; cursor:pointer;}
+
+/* Container */
+#simplemodal-container { height:auto!important; min-height:360px; width:550px; color:#bbb; background-color:#fff; border:1px solid #DDDDDD; padding:3px 3px 15px 3px;}
+#simplemodal-container .simplemodal-data {padding:0px;}
+#simplemodal-container code {background:#141414; border-left:3px solid #65B43D; color:#bbb; display:block; font-size:12px; margin-bottom:12px; padding:4px 6px 6px;}
+#simplemodal-container a {color:#ddd;}
+#simplemodal-container a.modalCloseImg {background-image: url(../images/ui-icons_0073ea_256x240.png); background-position: -95px -128px; background-repeat:no-repeat; width:19px; height:18px; display:inline; z-index:3200; position:absolute; top:10px; right:7px; cursor:pointer;}
+#simplemodal-container a.modalCloseImg:hover {background-image: url(../images/ui-icons_ffffff_256x240.png); background-position: -95px -128px; background-repeat:no-repeat; background-color:#1b82ec; width:19px; height:18px; display:inline; z-index:3200; position:absolute; top:10px; right:7px; cursor:pointer;}
+
+#quickorderFrm { padding:8px 0px 0px 8px; width:532px; float:left;  }
+#simplemodal-container h3 {color:#84b8d9;}
+
+
+
+.ui-widget-header { font-family:Arial, Helvetica, sans-serif; font-size:13px; text-align:left;
+   
+     background-color: #DDDDDD;
+    background-image: url(../images/ui-bg_highlight-soft_50_dddddd_1x100.png);
+    background-origin: padding-box;
+    background-position: 50% 50%;
+    background-repeat: repeat-x;
+    color: #444444;
+    font-weight: bold; border:#dddddd solid 1px; padding:0 10px; width:528px; height:30px; line-height:30px;
+}
+
+.ui-dialog-buttonpane { border-top-color: #DDDDDD;
+    border-top-style: solid;
+    border-top-width: 1px;
+    float: left;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 15px;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 30px;
+    padding-top: 13px;
+    width: 518px;}
+.ui-dialog-buttonpane .ui-dialog-buttonset { float:right;}
+.ui-dialog .ui-dialog-buttonpane button {
+    cursor: pointer;
+    margin-bottom: 0.5em;
+    margin-left: 0;
+    margin-right: 0.4em;
+    margin-top: 0.5em;
+}
+.ui-button {
+    -moz-text-blink: none !important;
+    -moz-text-decoration-color: -moz-use-text-color !important;
+    -moz-text-decoration-line: none !important;
+    -moz-text-decoration-style: solid !important;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 0.1em;
+    overflow-x: visible;
+    overflow-y: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: relative;
+    text-align: center;
+}
+
+.ui-button-text-only .ui-button-text {
+    padding-bottom: 0.4em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.4em;
+}
+.ui-state-default { font-family:Arial, Helvetica, sans-serif; font-size:13px;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #F6F6F6;
+    background-image: url(../images/ui-bg_highlight-soft_100_f6f6f6_1x100.png);
+    background-origin: padding-box;
+    background-position: 50% 50%;
+    background-repeat: repeat-x;
+    background-size: auto auto;
+    color: #0073EA; border:#ddd solid 1px; padding:7px;
+    font-weight: bold;
+}
+.ui-state-default:hover {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #0073EA;
+    background-image: url(../images/ui-bg_highlight-soft_25_0073ea_1x100.png);
+    background-origin: padding-box;
+    background-position: 50% 50%;
+    background-repeat: repeat-x;
+    background-size: auto auto;
+   color: #FFFFFF; border:#0073EA solid 1px; padding:7px;
+    font-weight: bold;
+}
+.btn-cart-popup { background:url(../images/addtocart_new.gif) no-repeat left top; width:144px; height:23px; margin:0; padding:0; border:none; text-indent:-9999px;}
+
